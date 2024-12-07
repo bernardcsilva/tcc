@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <header>
+            <h1>Cálculos</h1>
+            <p>Esse site tem como objetivo auxiliar aqueles que possuem dificuldades em cálculos</p>
+        </header>
+        <h2>Cálculo de Soma</h2>
+        <p>Nas lacunas abaixo digite os valores que deseja somar </p>
+        <input type="number" name="soma" id="soma"> + <input type="number" name="soma2" id="soma2">
+        <input type="button" value="Calcular" onclick="Somar()">
+        <br>
+        <div id="res1">
+
+        </div>
+        <h2>Cálculo de Subtração</h2>
+        <p>Nas lacunas abaixo digite os valores que deseja subtrair</p>
+        <input type="number" name="dim" id="dim"> - <input type="number" name="dim2" id="dim2">
+        <input type="button" value="Calcular" onclick="Diminuir()">
+        <br>
+        <div id="res2">
+
+        </div>
+        <br>
+        <h2>Cálculo de Multiplicação</h2>
+        <p>Nas lacunas abaixo digite os valores que deseja multiplicar</p>
+        <input type="number" name="mult" id="mult"> x <input type="number" name="mult2" id="mult2">
+        <input type="button" value="Calcular" onclick="Multiplicar()">
+        <br>
+        <div id="res3">
+
+        </div>
+        <br>
+        <h3>Tabuada</h3>
+        <div class="tabelas1">
+            <table>
+                <tr>
+                    <td>1 x 1</td>
+                    <td>1</td>                  
+                </tr>
+                <tr>
+                    <td>1 x 2</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>1 x 3</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>1 x 4</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>1 x 5</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>1 x 6</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>1 x 7</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>1 x 8</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>1 x 9</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>1 x 10</td>
+                    <td>10</td>
+                </tr>
+            </table>
+            
+             <br>
+            
+                 <table>
+                    <tr>
+                        <td>2 x 1</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>2 x 2</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>2 x 3</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>2 x 4</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>2 x 5</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>2 x 6</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>2 x 7</td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td>2 x 8</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td>2 x 9</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>2 x 10</td>
+                        <td>20</td>
+                    </tr>
+                    <br>
+                 </table>
+                </div>
+                <div class="tabelas1">
+                    <table>
+                        <tr>
+                            <td>3 x 1</td>
+                            <td>3</td>                  
+                        </tr>
+                        <tr>
+                            <td>3 x 2</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>3 x 3</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>3 x 4</td>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <td>3 x 5</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>3 x 6</td>
+                            <td>18</td>
+                        </tr>
+                        <tr>
+                            <td>3 x 7</td>
+                            <td>21</td>
+                        </tr>
+                        <tr>
+                            <td>3 x 8</td>
+                            <td>24</td>
+                        </tr>
+                        <tr>
+                            <td>3 x 9</td>
+                            <td>27</td>
+                        </tr>
+                        <tr>
+                            <td>3 x 10</td>
+                            <td>30</td>
+                        </tr>
+                    </table>
+                    
+                     <br>
+                    
+                         <table>
+                            <tr>
+                                <td>4 x 1</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>4 x 2</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>4 x 3</td>
+                                <td>12</td>
+                            </tr>
+                            <tr>
+                                <td>4 x 4</td>
+                                <td>16</td>
+                            </tr>
+                            <tr>
+                                <td>4 x 5</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>4 x 6</td>
+                                <td>24</td>
+                            </tr>
+                            <tr>
+                                <td>4 x 7</td>
+                                <td>28</td>
+                            </tr>
+                            <tr>
+                                <td>4 x 8</td>
+                                <td>32</td>
+                            </tr>
+                            <tr>
+                                <td>4 x 9</td>
+                                <td>36</td>
+                            </tr>
+                            <tr>
+                                <td>4 x 10</td>
+                                <td>40</td>
+                            </tr>
+                         </table>
+                        </div>
+                        <div class="tabelas1">
+                            <table>
+                                <tr>
+                                    <td>5 x 1</td>
+                                    <td>5</td>                  
+                                </tr>
+                                <tr>
+                                    <td>5 x 2</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>5 x 3</td>
+                                    <td>15</td>
+                                </tr>
+                                <tr>
+                                    <td>5 x 4</td>
+                                    <td>20</td>
+                                </tr>
+                                <tr>
+                                    <td>5 x 5</td>
+                                    <td>25</td>
+                                </tr>
+                                <tr>
+                                    <td>5 x 6</td>
+                                    <td>30</td>
+                                </tr>
+                                <tr>
+                                    <td>5 x 7</td>
+                                    <td>35</td>
+                                </tr>
+                                <tr>
+                                    <td>5 x 8</td>
+                                    <td>40</td>
+                                </tr>
+                                <tr>
+                                    <td>5 x 9</td>
+                                    <td>45</td>
+                                </tr>
+                                <tr>
+                                    <td>5 x 10</td>
+                                    <td>50</td>
+                                </tr>
+                            </table>
+                            
+                             <br>
+                            
+                                 <table>
+                                    <tr>
+                                        <td>6 x 1</td>
+                                        <td>6</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6 x 2</td>
+                                        <td>12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6 x 3</td>
+                                        <td>18</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6 x 4</td>
+                                        <td>24</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6 x 5</td>
+                                        <td>30</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6 x 6</td>
+                                        <td>36</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6 x 7</td>
+                                        <td>42</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6 x 8</td>
+                                        <td>48</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6 x 9</td>
+                                        <td>54</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6 x 10</td>
+                                        <td>60</td>
+                                    </tr>
+                                 </table>
+                                </div>
+                             <div class="tabelas1">
+                                    <table>
+                                        <tr>
+                                            <td>7 x 1</td>
+                                            <td>7</td>                  
+                                        </tr>
+                                        <tr>
+                                            <td>7 x 2</td>
+                                            <td>14</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7 x 3</td>
+                                            <td>21</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7 x 4</td>
+                                            <td>28</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7 x 5</td>
+                                            <td>35</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7 x 6</td>
+                                            <td>42</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7 x 7</td>
+                                            <td>49</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7 x 8</td>
+                                            <td>56</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7 x 9</td>
+                                            <td>63</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7 x 10</td>
+                                            <td>70</td>
+                                        </tr>
+                                    </table>
+                                    
+                                     <br>
+                                    
+                                    <table>
+                                        <tr>
+                                            <td>8 x 1</td>
+                                            <td>8</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8 x 2</td>
+                                            <td>16</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8 x 3</td>
+                                            <td>24</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8 x 4</td>
+                                            <td>32</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8 x 5</td>
+                                            <td>40</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8 x 6</td>
+                                            <td>48</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8 x 7</td>
+                                            <td>56</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8 x 8</td>
+                                            <td>64</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8 x 9</td>
+                                            <td>72</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8 x 10</td>
+                                           <td>80</td>
+                                         </tr>
+                                     </table>
+                                    </div>
+                                    <div class="tabelas1">                       
+                                     <table>
+                                        <tr>
+                                            <td>9 x 1</td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <td>9 x 2</td>
+                                            <td>18</td>
+                                        </tr>
+                                        <tr>
+                                            <td>9 x 3</td>
+                                            <td>27</td>
+                                        </tr>
+                                        <tr>
+                                            <td>9 x 4</td>
+                                            <td>36</td>
+                                        </tr>
+                                        <tr>
+                                            <td>9 x 5</td>
+                                            <td>45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>9 x 6</td>
+                                            <td>56</td>
+                                                </tr>
+                                        <tr>
+                                            <td>9 x 7</td>
+                                            <td>63</td>
+                                        </tr>
+                                        <tr>
+                                            <td>9 x 8</td>
+                                            <td>72</td>
+                                        </tr>
+                                        <tr>
+                                            <td>9 x 9</td>
+                                            <td>81</td>
+                                        </tr>
+                                        <tr>
+                                          <td>9 x 10</td>
+                                            <td>90</td>
+                                                </tr>
+                                    </table>
+                                    
+                                    <br>
+
+                                     <table>
+                                        <tr>
+                                            <td>10 x 1</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>10 x 2</td>
+                                            <td>20</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9 x 3</td>
+                                                    <td>27</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9 x 4</td>
+                                                    <td>36</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9 x 5</td>
+                                                    <td>45</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9 x 6</td>
+                                                    <td>56</td>
+                                                        </tr>
+                                                <tr>
+                                                    <td>9 x 7</td>
+                                                    <td>63</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9 x 8</td>
+                                                    <td>72</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9 x 9</td>
+                                                    <td>81</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>9 x 10</td>
+                                                    <td>90</td>
+                                                        </tr>
+                                                     </table>
+                                                    
+                                            </div>
+                                            
+     <h2>Cálculo de Divisão</h2>
+     <p>Nas lacunas abaixo digite os valores que deseja dividir</p>  
+     <input type="number" name="divi" id="divi"> / <input type="number" name="divi2" id="divi2">
+     <input type="button" value="Calcular" onclick="Divisao()">   
+     <div id="res4">
+
+     </div>
+     <h2>Cálculos de Temperatura</h2>
+     <h3>De Fahreinheit para Celcius</h3> 
+     <p>Digite abaixo para converter fahreinheit em celcius </p>
+     <div>
+         <input type="number" name="temp" id="temp">
+         <input type="button" value="Converter" onclick="converter()">
+     </div>
+     <div id="res5">
+ 
+     </div>
+     <h3>De Celcius para Fahreinheit</h3>
+     <p>Digite abaixo para converter celcius em fahreinheit</p>
+    <div>
+        <input type="number" name="temp2" id="temp2">
+        <input type="button" value="Converter" onclick="converter2()">
+    </div>
+    <div id="res6">  
+        
+        <br>
+     <p>Caso queira realizar um rascunho clique no link a seguir para ir para a página de rascunho</p>
+     <a href="rascunho.html" target="_blank">Clique Aqui</a>  
+    </main>
+    <footer>&copy;Site criado por Bernardo Carvalheira da Silva</footer>
+
+    <script src="tcc1.js"></script>
+</body>
+</html>

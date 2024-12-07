@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(92, 92, 248);
+}
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    
+
+   
+}
+h1 {
+   font-size: 50px;
+}
+main {
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    height: 3300px;
+    border-radius: 10px;
+    text-align: center;
+}
+div.tabelas1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+table {
+    border-collapse: collapse;
+    width: 200px;
+    text-align: left;
+}
+tr , td {
+    border: 1px solid black;
+    padding: 10px;
+}
+div {
+    padding: 10px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+}
